@@ -1,310 +1,290 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Practica 3 - Tablas y Divisiones </title>
-
+    <title>Práctica 3 - Tablas y Divisiones</title>
 </head>
-<body bgcolor = "#27254C">
+<body bgcolor="#564A94">
     <center>
-    <div id="encabezado">
 
-        <h1> <font face = "Comic sans MS" size = "6" color = "45B0D2"> Practica 3: Tablas y Divisiones en HTML</font></h1>
-        <p> <font face = "Comic sans MS" size = "4" color = "45B0D2"> Alumno: Miguel Angel Ramos Tadeo - Licenciatura en Sistemas Computacionales </font></p>
+    <!-- Div Encabezado -->
+    <div id="encabezado">
+        <h1><font face="Comic sans MS" size="6" color="#45B0D2">Práctica 3: Tablas y Divisiones en HTML</font></h1>
+        <p><font face="Comic sans MS" size="4" color="#45B0D2">Alumno: Miguel Angel Ramos Tadeo - Licenciatura en Sistemas Computacionales</font></p>
     </div>
 
-    <!-- Opciones para navegar  -->
-    <div id="menu">
-        <ul> <font face = "Comic sans MS" size = "4" color = "#F2ECF8">
-            <li><a href="#Horario">Horario de clases 5to.Semestre</a></li>
-            <li><a href="#Calificaciones">Calificaciones 4to semestre</a></li>
-            <li><a href="#Inventario"> Inventario del local</a></li>
-        </font>
+    <!-- Div Navegacion -->
+    <div id="navegacion">
+        <ul>
+            <li><a href="#Horario"><font face="Comic Sans MS" size="4" color="#F2ECF8">Horario de clases 5to. Semestre</font></a></li>
+            <li><a href="#Calificaciones"><font face="Comic Sans MS" size="4" color="#F2ECF8">Calificaciones 4to. Semestre</font></a></li>
+            <li><a href="#Inventario"><font face="Comic Sans MS" size="4" color="#F2ECF8">Inventario del local</font></a></li>
         </ul>
     </div>
 
-    <div id="tablas">
+    <!-- Div Tablas -->
+    <div id="tablas"> 
 
-        <font face = "Comic sans MS" size = "3" color = "F2ECF8">
-
-        <!-- Tabla de horarios -->
-        <h2 id= "Horario"> Horario de clases</h2>
-        <table border = "3" width ="80%">
-
-            <tr>
-                <th colspan = "7"> Horario de clases</th>
-            </tr>
-
-            <tr> 
-                <th> Hora </th>
-                <th> Lunes </th>
-                <th> Martes </th>
-                <th> Miercoles</th>
-                <th> Jueves </th>
-                <th> Viernes </th>
-                <th> Sabado  </th>
-            </tr>
-            <tr>
-                <td> 15:00 - 16:00 </td>
-                <td> ----- </td>
-                <td> ----- </td>
-                <td> Compiladores </td>
-                <td> ----- </td>
-                <td> ----- </td>
-                <td> Investigacion de operaciones </td>  
-            </tr>
-
-            <tr>
-                <td> 16:00 - 17:00 </td>
-                <td> Ingles V </td>
-                <td> Ingles V </td>
-                <td> Ingles V </td>
-                <td> Ingles V </td>
-                <td> Administracion de paginas web </td>
-                <td> Programacion de aplicaciones web </td>
-            </tr>
-
-            <tr>
-                <td> 18:00 - 19:00 </td>
-                <td rowspan="2"> Compiladores </td>
-                <td rowspan="2"> Compiladores </td>
-                <td> Investigacion de operaciones </td>
-                <td> Contabilidad</td> 
-                <td> Proyectos ambientales I</td>
-                <td> Administracion de bases de datos</td>
-            </tr>
-
-            <tr>
-                <td> 19:00 - 20:00 </td>
-                <td> Redes y servicios de comunicaciones</td>
-                <td> Redes y servicios de comunicaciones</td>
-                <td> Contabilidad </td>
-                <td> ----- </td>
-            </tr>
-
-            <tr>
-                <td> 20:00 - 21:00 </td>
-                <td rowspan="2"> Redes y servicios de comunicaciones</td>
-                <td rowspan="2"> Programacion de aplicaciones web</td>
-                <td rowspan="2"> Contabilidad </td>
-                <td> Administracion de bases de datos</td>
-                <td> ----- </td>
-                <td> ----- </td>
-            </tr>
-
-            <tr>
-                <td> 21:00 - 22:00 </td>
-                <td> ----- </td>
-                <td> ----- </td>
-                <td> ----- </td>
-            </tr>
+        <!-- a) Tabla de horarios -->
+        <h2 id="Horario"><font face="Comic sans MS" color="#F2ECF8">Horario de clases</font></h2>
+        <table border="3" width="80%">
+            <font face="Comic sans MS" size="3" color="#F2ECF8">
+                <tr>
+                    <th colspan="7">Horario de clases</th>
+                </tr>
+                <tr> 
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                    <th>Sábado</th>
+                </tr>
+                <tr>
+                    <td>15:00 - 16:00</td>
+                    <td>-----</td>
+                    <td>-----</td>
+                    <td>Compiladores</td>
+                    <td>-----</td>
+                    <td>-----</td>
+                    <td>Investigación de operaciones</td>  
+                </tr>
+                <tr>
+                    <td>16:00 - 17:00</td>
+                    <td>Inglés V</td>
+                    <td>Inglés V</td>
+                    <td>Inglés V</td>
+                    <td>Inglés V</td>
+                    <td>Administración de páginas web</td>
+                    <td>Programación de aplicaciones web</td>
+                </tr>
+                <tr>
+                    <td>18:00 - 19:00</td>
+                    <td rowspan="2">Compiladores</td>
+                    <td rowspan="2">Compiladores</td>
+                    <td>Investigación de operaciones</td>
+                    <td>Contabilidad</td> 
+                    <td>Proyectos ambientales I</td>
+                    <td>Administración de bases de datos</td>
+                </tr>
+                <tr>
+                    <td>19:00 - 20:00</td>
+                    <td>Redes y servicios de comunicaciones</td>
+                    <td>Redes y servicios de comunicaciones</td>
+                    <td>Contabilidad</td>
+                    <td>-----</td>
+                </tr>
+                <tr>
+                    <td>20:00 - 21:00</td>
+                    <td rowspan="2">Redes y servicios de comunicaciones</td>
+                    <td rowspan="2">Programación de aplicaciones web</td>
+                    <td rowspan="2">Contabilidad</td>
+                    <td>Administración de bases de datos</td>
+                    <td>-----</td>
+                    <td>-----</td>
+                </tr>
+                <tr>
+                    <td>21:00 - 22:00</td>
+                    <td>-----</td>
+                    <td>-----</td>
+                    <td>-----</td>
+                </tr>
+            </font>
         </table>
         
-        <!-- Tabla de calificaciones -->
-        <h2 id= "Calificaciones"> Calificaciones 4to semestre</h2>
-        <table border = "3" width ="80%">
-            <tr>
-                <th colspan = "7"> Calificaciones 4to semestre</th>
-            </tr>
+        <br>
 
-            <tr> 
-                <th> Ciclo </th>
-                <th> Materia </th>
-                <th> Calificacion </th>
-                <th> Resultado </th>
-                <th> Creditos</th>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Ingles IV </td>
-                <td> 9.2 </td>
-                <td> Aprobado </td>
-                <td> 4 </td> 
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Administracion </td>
-                <td> 10 </td>
-                <td> Aprobado </td>
-                <td> 9 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Investigacion de operaciones I </td>
-                <td> 9.0 </td>
-                <td> Aprobado </td>
-                <td> 7 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Programacion de sistemas </td>
-                <td> 8.8 </td>
-                <td> Aprobado </td>
-                <td> 8 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Lenguajes de consulta </td>
-                <td> 10.0 </td>
-                <td> Aprobado </td>
-                <td> 6 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Desarollo sostenible </td>
-                <td> 9.0 </td>
-                <td> Aprobado </td>
-                <td> 4 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Programacion orientada a objetos </td>
-                <td> 9.0 </td>
-                <td> Aprobado </td>
-                <td> 6 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Transmision y comunicacion de datos </td>
-                <td> 10.0 </td>
-                <td> Aprobado </td>
-                <td> 7 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Actividades culturales </td>
-                <td> A </td>
-                <td> Acreditado </td>
-                <td> 4 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Valores IV </td>
-                <td> A </td>
-                <td> Acreditado </td>
-                <td> 4 </td>
-            </tr>
-
-            <tr>
-                <td> 20261</td>
-                <td> Deportes IV </td>
-                <td> A </td>
-                <td> Acreditado </td>
-                <td> 4 </td>
-            </tr>
-            
-            <tr>
-                <td colspan="2"> Promedio </td>
-                <td> 9.38 </td>
-            </tr>
-
+        <!-- b) Tabla de calificaciones -->
+        <h2 id="Calificaciones"><font face="Comic sans MS" color="#F2ECF8">Calificaciones 4to semestre</font></h2>
+        <table border="3" width="80%">
+            <font face="Comic sans MS" size="3" color="#F2ECF8">
+                <thead>
+                    <tr>
+                        <th colspan="5">Calificaciones 4to semestre</th>
+                    </tr>
+                    <tr> 
+                        <th>Ciclo</th>
+                        <th>Materia</th>
+                        <th>Calificación</th>
+                        <th>Resultado</th>
+                        <th>Créditos</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>20261</td>
+                        <td>Inglés IV</td>
+                        <td>9.2</td>
+                        <td>Aprobado</td>
+                        <td>4</td> 
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Administración</td>
+                        <td>10</td>
+                        <td>Aprobado</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Investigación de operaciones I</td>
+                        <td>9.0</td>
+                        <td>Aprobado</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Programación de sistemas</td>
+                        <td>8.8</td>
+                        <td>Aprobado</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Lenguajes de consulta</td>
+                        <td>10.0</td>
+                        <td>Aprobado</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Desarrollo sostenible</td>
+                        <td>9.0</td>
+                        <td>Aprobado</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Programación orientada a objetos</td>
+                        <td>9.0</td>
+                        <td>Aprobado</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Transmisión y comunicación de datos</td>
+                        <td>10.0</td>
+                        <td>Aprobado</td>
+                        <td>7</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Actividades culturales</td>
+                        <td>A</td>
+                        <td>Acreditado</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Valores IV</td>
+                        <td>A</td>
+                        <td>Acreditado</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>20261</td>
+                        <td>Deportes IV</td>
+                        <td>A</td>
+                        <td>Acreditado</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Promedio General</td>
+                        <td>9.38</td>   
+                    </tr>
+                </tfoot>
+            </font>
         </table>
 
-        <!-- Tabla de promedio y creditos obtenidos -->
-        <h2 id= "Inventario"> Inventario</h2>
-        <table border = "3" width ="80%">   
+        <br>
 
-            <tr>
-                <th colspan="6"> Inventario Hardware </th>
-            </tr>
-        
-            <tr> 
-                <th> Categoria</th>
-                <th> Producto </th>
-                <th> Sistema operativo/Tecnologia</th>
-                <th> Cantidad disponible</th>
-                <th> Estado</th>
-                <th> Precio </th>
-            </tr>
-
-            <tr> 
-                <th rowspan="4"> Computadoras </th>
-                <td> Lenovo Ideapad Slim 3</td>
-                <td> Windows 11</td>
-                <td> 10 </td>
-                <td> <font color ="green"> Disponible</font></td>
-                <td> $10,000.00</td>
-            </tr>
-
-            <tr>
-                <td> Dell Inspiron 15</td>
-                <td> Windows 10</td>
-                <td> 0 </td>
-                <td> <font color ="red"> No disponible </font></td>
-                <td> $8,000.00</td>
-            </tr>
-
-            <tr>
-                <td> Apple MacBook Air (M3)</td>
-                <td> macOS</td>
-                <td> 5 </td>
-                <td> <font color ="green"> Disponible</font></td>
-                <td> $22,999.00</td>
-            </tr>
-
-            <tr>
-                <td> ASUS ROG Zephyrus G14</td>
-                <td> Windows 11</td>
-                <td> 3 </td>
-                <td> <font color ="green"> Disponible</font></td>
-                <td> $36,000.00</td>
-            </tr>
-
-        <tr>
-            <th rowspan="4"> Impresoras </th>
-            <td> HP DeskJet Ink Advantage  2775</td>
-            <td> Tinta (Cartuchos) </td>
-            <td> 2 </td>
-            <td> <font color ="green"> Disponible</font></td>
-            <td> $1500.00</td>
-        </tr>
-        
-        <tr>
-            <td> Epson EcoTank L3250</td>
-            <td> Tinta (Cartuchos) </td>
-            <td> 24 </td>
-            <td> <font color ="green"> Disponible </font></td>
-            <td> $4500.00</td>
-        </tr>
-
-        <tr>
-            <td> Brother Láser Monocromatica HL-L2350DW</td>
-            <td> Láser (Blanco y negro) </td>
-            <td> 0 </td>
-            <td> <font color ="red"> No disponible </font></td>
-            <td> $3500.00</td>
-        </tr>
-
-        <tr>
-            <td> HP Color LaserJet Pro M454dw</td>
-            <td> Láser (Color) </td>
-            <td> 0 </td>
-            <td> <font color ="red"> No disponible </font></td>
-            <td> $8500.00</td>
-        </tr>
-
+        <!-- c) Tabla libre (Inventario) -->
+        <h2 id="Inventario"><font face="Comic sans MS" color="#F2ECF8">Inventario</font></h2>
+        <table border="3" width="80%">
+            <font face="Comic sans MS" size="3" color="#F2ECF8">
+                <tr>
+                    <th colspan="6">Inventario Hardware</th>
+                </tr>
+                <tr> 
+                    <th>Categoría</th>
+                    <th>Producto</th>
+                    <th>Sistema operativo/Tecnología</th>
+                    <th>Cantidad disponible</th>
+                    <th>Estado</th>
+                    <th>Precio</th>
+                </tr>
+                <tr> 
+                    <th rowspan="4">Computadoras</th>
+                    <td>Lenovo Ideapad Slim 3</td>
+                    <td>Windows 11</td>
+                    <td>10</td>
+                    <td><font color="green">Disponible</font></td>
+                    <td>$10,000.00</td>
+                </tr>
+                <tr>
+                    <td>Dell Inspiron 15</td>
+                    <td>Windows 10</td>
+                    <td>0</td>
+                    <td><font color="red">No disponible</font></td>
+                    <td>$8,000.00</td>
+                </tr>
+                <tr>
+                    <td>Apple MacBook Air (M3)</td>
+                    <td>macOS</td>
+                    <td>5</td>
+                    <td><font color="green">Disponible</font></td>
+                    <td>$22,999.00</td>
+                </tr>
+                <tr>
+                    <td>ASUS ROG Zephyrus G14</td>
+                    <td>Windows 11</td>
+                    <td>3</td>
+                    <td><font color="green">Disponible</font></td>
+                    <td>$36,000.00</td>
+                </tr>
+                <tr>
+                    <th rowspan="4">Impresoras</th>
+                    <td>HP DeskJet Ink Advantage 2775</td>
+                    <td>Tinta (Cartuchos)</td>
+                    <td>2</td>
+                    <td><font color="green">Disponible</font></td>
+                    <td>$1,500.00</td>
+                </tr>
+                <tr>
+                    <td>Epson EcoTank L3250</td>
+                    <td>Tinta (Cartuchos)</td>
+                    <td>24</td>
+                    <td><font color="green">Disponible</font></td>
+                    <td>$4,500.00</td>
+                </tr>
+                <tr>
+                    <td>Brother Láser Monocromática HL-L2350DW</td>
+                    <td>Láser (Blanco y negro)</td>
+                    <td>0</td>
+                    <td><font color="red">No disponible</font></td>
+                    <td>$3,500.00</td>
+                </tr>
+                <tr>
+                    <td>HP Color LaserJet Pro M454dw</td>
+                    <td>Láser (Color)</td>
+                    <td>0</td>
+                    <td><font color="red">No disponible</font></td>
+                    <td>$8,500.00</td>
+                </tr>
+            </font>
         </table>
-        
-    </font>
+
     </div>
 
-    <!-- pie de pagina -->
-     <div>
-        <p> <font color="gray"> Miguel Angel Ramos Tadeo - Licenciatura en Sistemas Computacionales - 5to. Semestre - Fecha de entrega: 26 de Agosto del 2026</font></p>
-     </div>
+    <!-- Div Pie de pagina -->
+    <div id="pie">
+        <p><font color="black">Miguel Angel Ramos Tadeo - Licenciatura en Sistemas Computacionales - 5to. Semestre - Fecha de entrega: 26 de Agosto del 2026</font></p>
+    </div>
 
     </center>
-
 </body>
 </html>
